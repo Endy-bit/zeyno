@@ -9,22 +9,26 @@ import moment from 'moment-timezone';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.author = '𝐌𝐝';
-global.vs = 'X';
-global.collab = 'Demo';
+global.nomebot = 'ɀҽყɳσ Ⴆσƚ';
+global.packname = 'ɀҽყɳσ Ⴆσƚ';
+global.author = 'ΞNDY';
+global.vs = '4.9';
+global.collab = 'Football';
 global.wm = global.nomebot;
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
 
 global.owner = [
-  ['393773842461', '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲', true],
-  ['xxxxxxxxxx'], // Numero, Nome, True (attenzione alla sintassi deve essere identico a sopra!)
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx']
+  ['393501989497', 'Endy', true],
+  ['447393088288', 'ksav', true],
+  ['212693877842', 'medalis', true],
+  ['84908983590', 'luxe/nane', true],
+  ['573008626736', 'estreia/stellina', true],
+  ['393926427789', 'knor', true],
+  ['393206032199', 'punisher', true],
+  ['212612624296', 'zak', true],
+  ['447346909408', 'blast', true],
+  ['447935218835', 'exorcism', true],
 ];
 
 
