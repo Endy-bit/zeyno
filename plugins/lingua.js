@@ -1,4 +1,3 @@
-//credits chatunity!
 import '../lib/language.js'
 
 const VALID_LANGUAGES = ['it', 'en', 'zh', 'ar', 'fr', 'hi', 'id', 'pt', 'ru', 'es', 'de', 'tr']
