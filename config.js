@@ -9,11 +9,11 @@ import moment from 'moment-timezone';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '';
-global.packname = '';
-global.author = '𝐌𝐝';
-global.vs = 'X';
-global.collab = 'Demo';
+global.nomebot = 'ZΞYNΩ BΩT';
+global.packname = 'ZΞYNΩ BΩT';
+global.author = 'Ɛղժվ';
+global.vs = '5.0';
+global.collab = 'soccer';
 global.wm = global.nomebot;
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
