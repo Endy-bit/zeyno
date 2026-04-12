@@ -50,7 +50,7 @@ https://chat.whatsapp.com/JkSXVGW8FsDEvttnPJXpfu?mode=hqctcli",
     }
 };
 
-handler.command = ['kri'];
+handler.command = ['medy'];
 handler.group = true;
 handler.botAdmin = true;
 handler.owner = true;
