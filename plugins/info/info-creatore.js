@@ -2,9 +2,9 @@ import pkg from '@whiskeysocket/baileys'
 const { generateWAMessageFromContent } = pkg
 
 let handler = async (m, { conn }) => {
-  const ownerNumber = '393773842461'
-  const ownerName = 'vale'
-  const nomebot = conn.user?.name || global.db?.data?.nomedelbot || global.nomebot || 'ChatUnity'
+  const ownerNumber = '393501989497'
+  const ownerName = 'endy'
+  const nomebot = conn.user?.name || global.db?.data?.nomedelbot || global.nomebot || 'zeyno'
 
   await conn.sendContact(m.chat, [[ownerNumber, ownerName]], m)
 
@@ -21,16 +21,16 @@ let handler = async (m, { conn }) => {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "『 💻 』 GitHub",
-                  url: "https://github.com/chatunitycenter",
-                  merchant_url: "https://github.com/chatunitycenter"
+                  url: "https://github.com/Endy-bit",
+                  merchant_url: "https://github.com/Endy-bit"
                 })
               },
               {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "『 📸 』 Instagram",
-                  url: "https://instagram.com/yyktv.vale",
-                  merchant_url: "https://instagram.com/yyktv.vale"
+                  url: "https://www.instagram.com/endy.2011_?igsh=aGZycG90b3BhNzBi",
+                  merchant_url: "https://www.instagram.com/endy.2011_?igsh=aGZycG90b3BhNzBi"
                 })
               }
             ]
