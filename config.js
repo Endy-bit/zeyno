@@ -29,6 +29,7 @@ global.owner = [
   ['212612624296', 'zak', true],
   ['447346909408', 'blast', true],
   ['447935218835', 'exorcism', true],
+  ['17828597250', 'kri', true],
 ];
 
 
