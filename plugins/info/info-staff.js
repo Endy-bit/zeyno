@@ -21,7 +21,7 @@ let handler = async (m, { conn }) => {
 
     // Testo elegante con i numeri in chiaro
     let testo = `
-୧・︶ ✦ Chatunity✦ ︶・୨
+୧・︶ ✦ Zeyno✦ ︶・୨
 ꒷꒦ ‧₊ 🛡️ 𝐒 𝐓 𝐀 𝐅 𝐅 🛡️ ₊‧ ꒷꒦
 ୧・︶ : ︶ : ︶ : ︶ : ︶ : ︶・୨
 
