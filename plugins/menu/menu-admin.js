@@ -9,7 +9,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
     const groupId = message.isGroup ? message.chat : null;
 
     const menuText = generateMenuText(usedPrefix, userId, groupId);
-    const imagePath = path.join(__dirname, '../../media/admin.jpeg');
+    const imagePath = path.join(__dirname, '../../media/immagine.jpg');
     const footerText = global.t('chooseMenu', userId, groupId);
     const mainMenuText = global.t('mainMenuButton', userId, groupId);
     const ownerMenuText = global.t('ownerMenuButton', userId, groupId);
@@ -91,6 +91,6 @@ function generateMenuText(prefix, userId, groupId) {
 
 ${commandList.split('\n').map(line => `୧ ${line.trim()}`).join('\n')}
 ꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
-> © ${global.t('poweredBy', userId, groupId)} 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
+> © ${global.t('poweredBy', userId, groupId)} ɀҽყɳσ Ⴆσƚ
 `.trim();
 }
