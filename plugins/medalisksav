@@ -6,6 +6,5 @@ let handler = async (m, { conn }) => {
   })
 }
 
-handler.customPrefix = /(\.medalis-ksav)/i
-handler.command = new RegExp
-export default handler
+handler.customPrefix = /(\.)/i
+handler.command = /(\medalis-ksav)/i
