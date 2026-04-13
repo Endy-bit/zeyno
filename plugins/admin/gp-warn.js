@@ -37,7 +37,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
   let user = global.db.data.users[who];
   ensureWarnState(user, m.chat);
   let warn = user.warns[m.chat] || 0;
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`;
+  let nomeDelBot = global.db.data.nomedelbot || `Zeyno`;
 
   const messageOptions = {
     contextInfo: {
