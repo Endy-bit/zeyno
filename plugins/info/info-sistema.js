@@ -88,7 +88,7 @@ ${diskSpaceLabel}
 ╰﹕₊˚ ★ ⁺˳ꕤ₊⁺・꒱` : diskErrorLabel}
 
 ╰♡꒷ ๑ ⋆˚₊⋆──ʚ˚ɞ──⋆˚₊⋆ ๑ ⪩
-୧・© ChatUnity Bot
+୧・© Zeyno Bot
 ╰♡꒷ ๑ ⋆˚₊⋆──ʚ˚ɞ──⋆˚₊⋆ ๑ ⪩
 `;
 
