@@ -11,7 +11,7 @@ const ims = './bb.jpg'
 let handler = async (m, { conn, usedPrefix }) => {
     const userId = m.sender
     const groupId = m.isGroup ? m.chat : null
-    const nomeDelBot = global.db.data.nomedelbot || 'ChatUnity'
+    const nomeDelBot = global.db.data.nomedelbot || 'Zeyno-bot'
     
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime) 
@@ -88,8 +88,9 @@ ${cta}
                 title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
                 body: 'Zeyno',
                 previewType: 0,
-                thumbnail: fs.readFileSync("./media/principale.jpeg"),
-                sourceUrl: `https://github.com/chatunitycenter/chatunity-bot`
+                thumbnail: fs.readFileSync("./media/image-5.jpg
+"),
+                sourceUrl: `https://github.com/Endy-bit/Zeyno`
             }
         }
     }, { quoted: m })
