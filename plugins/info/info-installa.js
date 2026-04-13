@@ -57,7 +57,7 @@ ${features}
 ${cta}
 ꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
 ୧ ${repoLabel}
-[https://github.com/chatunitycenter/chatunity-bot](https://github.com/chatunitycenter/chatunity-bot)
+[https://github.com/Endy-bit/Zeyno](https://github.com/Endy-bit/Zeyno)
 
 ୧ ${videoLabel}
 [https://youtu.be/-FZYK-vj4BY](https://youtu.be/-FZYK-vj4BY)
@@ -67,7 +67,7 @@ ${cta}
 
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩
 ୧・𝐂𝐎𝐋𝐋𝐀𝐁: ${collab}
-୧・© ChatUnity Bot
+୧・© Zeyno bot
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩
 `.trim()
 
@@ -86,7 +86,7 @@ ${cta}
                 mediaType: 1,
                 description: null,
                 title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
-                body: 'ChatUnity',
+                body: 'Zeyno',
                 previewType: 0,
                 thumbnail: fs.readFileSync("./media/principale.jpeg"),
                 sourceUrl: `https://github.com/chatunitycenter/chatunity-bot`
