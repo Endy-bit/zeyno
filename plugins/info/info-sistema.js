@@ -24,7 +24,7 @@ const getDiskSpace = () => {
 const handler = async (m, { conn }) => {
     const userId = m.sender;
     const groupId = m.isGroup ? m.chat : null;
-    const nomeDelBot = global.db.data.nomedelbot || 'ChatUnity';
+    const nomeDelBot = global.db.data.nomedelbot || 'Zeyno';
 
     const totalMem = os.totalmem();
     const freeMem = os.freemem();
