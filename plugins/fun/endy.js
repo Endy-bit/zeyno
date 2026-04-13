@@ -6,6 +6,6 @@ let handler = async (m, { conn, command, text }) => {
 
 handler.help = ['endy'];
 handler.tags = ['giochi'];
-handler.command = /^medalis-ksav$/i;
+handler.command = /^endy$/i;
 
 export default handler;
