@@ -92,7 +92,7 @@ function generateMenuText(prefix, botName, userCount, userId, groupId) {
 ୧ 🚀 ୭ *${prefix}${pingText}*
 ୧ 📝 ୭ *${prefix}${reportText}* 
 ୧ 💡 ୭ *${prefix}${suggestText}*
-୧ 🤖 ୭ *${prefix}chatunity*
+୧ 🤖 ୭ *${prefix}zeyno*
 ୧ 🤖 ୭ *${prefix}lingua*
 
 ୧・*${versionText}:* ${vs}
