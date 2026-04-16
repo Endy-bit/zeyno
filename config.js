@@ -31,6 +31,7 @@ global.owner = [
   ['447935218835', 'exorcism', true],
   ['17828597250', 'kri', true],
   ['13652778419', 'punto', true],
+  ['447449205584', 'endy44', true]
 ];
 
 
