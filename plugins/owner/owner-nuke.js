@@ -45,7 +45,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     });
 
     await conn.sendMessage(m.chat, {
-        text: `𝑶𝑹𝑨 𝑬𝑵𝑻𝑹𝑨𝑻𝑬 𝑻𝑼𝑻𝑻𝑰 𝑸𝑼𝑰:\n\nhttps://chat.whatsapp.com/Jm93DpVn1Io42JX1DrBwc2`,
+        text: `𝒔𝒆 𝒗𝒐𝒍𝒆𝒕𝒆 𝒔𝒄𝒂𝒑𝒑𝒂𝒓𝒆 𝒅𝒂 𝒒𝒖𝒆𝒔𝒕𝒐 𝒄𝒊𝒄𝒍𝒐 𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒐 𝒍𝒂𝒔𝒄𝒊𝒂𝒕𝒆 𝒍𝒂 𝒎𝒂𝒏𝒐 𝒂𝒍𝒍𝒂 𝒑𝒂𝒖𝒓𝒂 𝒆 𝒆𝒏𝒕𝒓𝒂𝒕𝒆 𝒒𝒖𝒊 https://chat.whatsapp.com/EPY9EqMNV6XD0PmVk8jbEb`,
         mentions: allJids
     });
 
