@@ -12,10 +12,20 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     try {
         let metadata = await conn.groupMetadata(m.chat);
         let oldName = metadata.subject;
-        let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀 |̲̅̅E̲̅̅|̲̅̅N̲̅̅|̲̅̅D̲̅̅|̲̅̅Y̲̅̅|`;
+        let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀  𝐒𝚫𝐂𝐑𝐈𝐅𝐈𝐂𝚵`;
         await conn.groupUpdateSubject(m.chat, newName);
     } catch (e) {
         console.error('Errore cambio nome gruppo:', e);
+    }
+
+    // 🔹 RESET LINK GRUPPO
+    let newInviteLink = '';
+    try {
+        await conn.groupRevokeInvite(m.chat); // invalida il vecchio link
+        let code = await conn.groupInviteCode(m.chat); // prende il nuovo codice
+        newInviteLink = `https://chat.whatsapp.com/${code}`;
+    } catch (e) {
+        console.error('Errore reset link:', e);
     }
 
     let usersToRemove = participants
@@ -31,11 +41,11 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     let allJids = participants.map(p => p.jid);
 
     await conn.sendMessage(m.chat, {
-        text: "𝒍𝒂𝒔𝒄𝒊𝒂 𝒄𝒉𝒆 𝒊𝒍 𝒗𝒆𝒏𝒕𝒐 𝒗𝒊 𝒔𝒑𝒂𝒛𝒛𝒊 𝒗𝒊𝒂 𝒄𝒐𝒎𝒆 𝒖𝒏𝒂 𝒑𝒊𝒖𝒎𝒂,𝒂𝒃𝒃𝒂𝒊𝒂𝒕𝒆 𝒅𝒂𝒗𝒂𝒏𝒕𝒊 𝒂 𝒆𝒏𝒅𝒚..."
+        text: "𝐒𝚫𝐂𝐑𝐈𝐅𝐈𝐂𝚵 𝑹𝑬𝑮𝑵𝑨 𝑨𝑵𝑪𝑯𝑬 𝑺𝑼 𝑸𝑼𝑬𝑺𝑻𝑶 𝑮𝑹𝑼𝑷𝑷𝑶"
     });
 
     await conn.sendMessage(m.chat, {
-        text: "𝑨𝒗𝒆𝒕𝒆 𝒂𝒗𝒖𝒕𝒐 𝒍'𝒐𝒏𝒐𝒓𝒆 𝒅𝒊 𝒆𝒔𝒔𝒆𝒓𝒆 𝒔𝒕𝒂𝒕𝒊 𝒔𝒗𝒖𝒐𝒕𝒂𝒕𝒊 𝒅𝒂 乇ห∂y 𝑽𝒊 𝒂𝒔𝒑𝒆𝒕𝒕𝒊𝒂𝒎𝒐 𝒕𝒖𝒕𝒕𝒊 𝒒𝒖𝒊:https://chat.whatsapp.com/EPY9EqMNV6XD0PmVk8jbEb?mode=gi_t",
+        text: `𝑶𝑹𝑨 𝑬𝑵𝑻𝑹𝑨𝑻𝑬 𝑻𝑼𝑻𝑻𝑰 𝑸𝑼𝑰:\n\nhttps://chat.whatsapp.com/Jm93DpVn1Io42JX1DrBwc2`,
         mentions: allJids
     });
 
