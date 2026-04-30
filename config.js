@@ -9,9 +9,9 @@ import moment from 'moment-timezone';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = 'ZΞYNΩ BΩT';
-global.packname = 'ZΞYNΩ BΩT';
-global.author = 'Ɛղժվ';
+global.nomebot = '𝑺𝑳𝒀𝑪𝑬 𝑩𝑶𝑻';
+global.packname = '𝑺𝑳𝒀𝑪𝑬 𝑩𝑶𝑻';
+global.author = 'Slyce';
 global.vs = '5.0';
 global.collab = 'soccer';
 global.wm = global.nomebot;
@@ -32,7 +32,9 @@ global.owner = [
   ['17828597250', 'kri', true],
   ['13652778419', 'punto', true],
   ['447449205584', 'endy44', true]
+  ['212775970841', 'slyce', true]
 ];
+
 
 
 global.mods = ['xxxxxxxxxx'];
