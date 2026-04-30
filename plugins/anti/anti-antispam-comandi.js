@@ -175,7 +175,7 @@ async function enforceCommandAntispam(conn, m, chat) {
       text: `『 ⚠ 』 Anti-spam comandi\n\n@${getJidUser(m.sender)} hai superato il limite di comandi consecutivi.\nAttendi *${Math.ceil(COMMAND_SPAM_USER_COOLDOWN / 1000)} secondi* prima di riprovare.`,
       mentions: [m.sender]
     })
-    m.commandBlocked = false
+    m.commandBlocked = true
     return true
   }
 
